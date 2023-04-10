@@ -130,6 +130,7 @@ body{
     opacity: 1;
 }
 
+/* SECOND SMALL HOVERING SQUARE */
 .container .box span::after{
     content: "";
     position: absolute;
@@ -148,8 +149,8 @@ body{
 }
 
 .container .box:hover span::after {
-    top: -50px;
-    left: 50px;
+    bottom: -50px;
+    right: 50px;
     width: 100px;
     height: 100px;
     opacity: 1;
